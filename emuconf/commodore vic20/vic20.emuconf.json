@@ -1,0 +1,23 @@
+{
+    "cpu": "mos6502",
+    "mmap": [
+        {
+            "dev": "rom",
+            "from": "0xE000",
+            "to": "0xFFFF",
+            "filename": "path/to/kernal.rom"
+        },
+        {
+            "dev": "rom",
+            "from": "0xC000",
+            "to": "0xDFFF",
+            "filename": "path/to/basic.rom"
+        },
+        {
+            "dev": "rom",
+            "from": "0x8000",
+            "to": "0x8FFFF",
+            "filename": "path/to/characters.rom"
+        }
+    ]
+}
