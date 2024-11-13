@@ -1,0 +1,22 @@
+SuperEmu <file.emuconf.json> [Options]
+
+Options:
+    -b <addr>           [Only in debug mode] set breakpoint
+    -d                  Enter in debug mode
+    -f                  Enable fullscreen
+    --help, ?           Show this list
+    --no-video          Disable video
+    --no-audio          Disable audio
+    -v                  Show version
+    --scale <float>     Scale window size
+    --speed <float>     Set emulation speed           
+
+
+Debug mode commands:
+
+b <addr>                    Add a breakpoint
+d <addr> <size>             Show memory
+dm <addr> <size> <file>     Dump memory into file
+c                           Next clock cycle
+nb                          Run until next breakpoint
+ni                          Next instruction

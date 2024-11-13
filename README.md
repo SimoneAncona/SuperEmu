@@ -1,0 +1,3 @@
+# SupeEmu
+
+Collection of emulators
