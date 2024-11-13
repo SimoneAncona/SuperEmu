@@ -1,6 +1,6 @@
 {
     "cpu": "mos6502",
-    "mmap": [
+    "mapping": [
         {
             "dev": "rom",
             "from": "0xE000",
@@ -18,6 +18,20 @@
             "from": "0x8000",
             "to": "0x8FFFF",
             "filename": "path/to/characters.rom"
+        },
+        {
+            "id": "mos6560",
+            "dev": "mos6560",
+            "from": "0x9000",
+            "to": "0x900F"
+        }
+    ],
+    "intercons": [
+        {
+            "devId": "mos6560",
+            "from": "0x0000",
+            "to": "0xFFFF",
+            "mapFunction": ""
         }
     ]
 }
